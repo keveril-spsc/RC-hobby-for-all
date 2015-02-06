@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="RC_hobby_for_all.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title><%: Page.Title %> - RC Hobby for All</title>
+    <link href="Content/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/bootstrap.js "></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- Navigation Bar -->
+        <div class="navbar navbar-default">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/Default.aspx">Logo Here</a>
+            </div>
+            <div class="navbar-collapse collapse navbar-responsive-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/Pages/News.aspx">News</a></li>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">On Road</a></li>
+                            <li><a href="#">Off Road</a></li>
+                            <li class="divider"></li>
+                            <li class="dropdown-header">Dropdown header</li>
+                            <li><a href="#">1/8th Scale</a></li>
+                            <li><a href="#">1/10th Scale</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/Pages/Tutorial.aspx">Tutorial</a></li>
+                    <li><a href="/Pages/Glosary.aspx">Glosary</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right navbar-rightsection">
+                    <li><a href="/Pages/About.aspx">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Body Content -->
+        <div>
+            <asp:ContentPlaceHolder ID="BodyPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <p class="text-muted">Footer. Copyright Kevin Everil 2015</p>
+            </div>
+        </footer>
+    </form>
+</body>
+</html>

@@ -1,0 +1,5 @@
+C:\GitHub\RC-hobby-for-all\RC-hobby-for-all\bin\RC-hobby-for-all.dll
+C:\GitHub\RC-hobby-for-all\RC-hobby-for-all\bin\RC-hobby-for-all.pdb
+C:\GitHub\RC-hobby-for-all\RC-hobby-for-all\obj\Debug\RC-hobby-for-all.dll
+C:\GitHub\RC-hobby-for-all\RC-hobby-for-all\obj\Debug\RC-hobby-for-all.pdb
+C:\GitHub\RC-hobby-for-all\RC-hobby-for-all\obj\Debug\RC-hobby-for-all.csprojResolveAssemblyReference.cache
